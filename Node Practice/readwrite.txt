@@ -1,0 +1,14 @@
+hello world this is a simulation
+const fs = require('fs'); //to use module your have to use require with a function 
+//create new file
+// fs.writeFileSync('read.txt','hello');
+//edit file
+// fs.writeFileSync('read.txt','hello world');
+//to add extra data
+// fs.appendFileSync('read.txt',' this is a simulation');
+//to read file
+// const buffer = fs.readFileSync('read.txt'); //this shows data in buffer value you have to convert it to string to read this file
+// data = buffer.toString();
+// console.log(data);
+//to rename the file
+// fs.renameSync('read.txt','readwrite.txt');

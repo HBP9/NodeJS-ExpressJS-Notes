@@ -1,0 +1,6 @@
+hello world this is computer
+const fs = require('fs');
+// fs.writeFile('read.txt','hello world',(err) => { console.log('Completed'); });
+// fs.readFile('read.txt','utf-8',(e,data) => { console.log(data); });
+// fs.appendFile('read.txt',' this is computer',(err) => { console.log('Added'); });
+// fs.rename('read.txt','async.txt',(e) => { console.log('Renamed'); });
